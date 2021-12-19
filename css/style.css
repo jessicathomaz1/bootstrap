@@ -1,0 +1,17 @@
+.navbar {
+    background-color: #017afe;
+}
+
+.home {
+    /* background-color: blue; */
+}
+
+.margin {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.bg-footer {
+    background-color: black;
+    color: white;
+}
