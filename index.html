@@ -9,38 +9,47 @@
 
     <body>
         <!-- NAVBAR -->
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <!-- <a class="navbar-brand" href="#">
-                <img src="img/hemofinder.jpg" alt="Vibe Tecnologia" width="100" height="100">
-            </a> -->
-            <div class="collapse navbar-collapse">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#home">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#conquistas">Conquistas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Agendamentos</a>
-                    </li>
-                </ul>
+        <nav class="navbar navbar-expand-lg navbar-light text-center">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#home">Home</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link" href="#conquistas">Conquistas</a>
+                      </li>
+                  </div>
             </div>
         </nav>
 
         <!-- Home -->
         <section id="home">
-            <div class="container-fluid home text-center margin">
-                <h3>Home</h3>
+            <div class="container-fluid home margin">
+                <h3 class="text-center">Home</h3>
                 <!-- <img src="img/perfil.png" alt="Home" class="rounded-circle" width="300" height="300"> -->
-                <p>Olá, meu nome é Jéssica Thomaz tenho 27 anos. <br/>
-                    Graduada em Ciência da Computação e Pós-Graduada em Projetos de Aplicativos Móveis Multiplataforma.<br/>
-                    Esse portifólio foi criado para fins de estudos no Bootcamp <b>Inter Frontend Developer</b><br/>que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil.
-                </p>
-                <p>Aqui você pode encontrar as minhas conquistas, projetos, habilidades e mentorias. <br/>
-                    O site será atualizado de acordo com os conhecimento adquiridos no Bootcamp.<br/>
-                    Aproveite os estudos e me siga nas redes sociais.
-                </p>
+                <div class="row align-items-md-stretch">
+                    <div class="col-md-6">
+                      <div class="h-100 p-5 bg-light rounded-3">
+                        <p>Olá, meu nome é Jéssica Thomaz tenho 27 anos. <br/>
+                            Graduada em Ciência da Computação e Pós-Graduada em Projetos de Aplicativos Móveis Multiplataforma.<br/>
+                            Esse portifólio foi criado para fins de estudos no Bootcamp <b>Inter Frontend Developer</b><br/>que é uma das maiores e mais completas plataformas digitais de serviços financeiros e não financeiros do Brasil.
+                        </p>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <div class="h-100 p-5 bg-light rounded-3">
+                        <p>Aqui você pode encontrar as minhas conquistas, projetos, habilidades e mentorias. <br/>
+                            O site será atualizado de acordo com os conhecimento adquiridos no Bootcamp.<br/>
+                            Aproveite os estudos e me siga nas redes sociais.
+                        </p>
+                      </div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -59,7 +68,7 @@
                     <div class="col-lg-4">
                       <img class="bd-placeholder-img" width="140" height="140" src="img/logica-programacao.png">
                       <h2>Lógica de Programação Essencial</h2>
-                      <p>Lógica de programação é a forma como o desenvolvedor entende a comunicação a fim de programar uma função de um programa. Faz uso de algoritmos, que são sequências de passos bem estabelecidos, como por exemplo, uma receita de bolo.</p>
+                      <p>Lógica de programação é a forma como o desenvolvedor entende a comunicação a fim de programar uma função de um programa. Faz uso de algoritmos, que são sequências de passos bem estabelecidos, como por exemplo, uma receita de bolo.</p>                  
                     </div>
 
                     <div class="col-lg-4">
@@ -96,5 +105,11 @@
         <footer class="container-fluid text-center bg-footer margin">
             <p>Desenvolvido por Jéssica Thomaz 🎈</p>
         </footer>
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     </body>
 </html>
