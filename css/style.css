@@ -8,10 +8,19 @@
 
 .margin {
     padding-top: 30px;
-    padding-bottom: 30px;
+    padding-bottom: 15px;
 }
 
 .bg-footer {
-    background-color: black;
-    color: white;
+    background-color: #017afe;
+    color: black;
+}
+.conquista {
+    padding-bottom: 30px;
+}
+
+.menu {
+    font-weight: bold;
+    font-size: 18px;
+    justify-content: center
 }
